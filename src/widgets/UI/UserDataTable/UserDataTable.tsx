@@ -3,9 +3,9 @@ import { IUserData, useGetUserDataQuery } from '../../../entities'
 import {ActiveRow, InputAddress, InputDescription, InputEmail, InputFirstName, InputId, InputLastName, InputPhone, Sort, SortEnum} from '../../../features'
 import {useEffect, useState, useReducer } from 'react'
 import { Pagination } from '../../../features/UI/Pagination/Pagination'
-import { tableReducer } from '../../reducers/table.state'
+import { tableReducer } from '../../reducers/table.reducer'
 import styled from 'styled-components'
-import { INITIAL_STATE } from '../../constants/table-state.constant'
+import { INITIAL_STATE } from '../../constants/table-reducer.constant'
 
 const StyledLoderWrapper = styled.div`
 position: absolute;

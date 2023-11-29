@@ -1,4 +1,4 @@
-import { TableReducerState } from "../models/table-state.interface";
+import { TableReducerState } from "..";
 
 export const INITIAL_STATE: TableReducerState = {
   sort: {
